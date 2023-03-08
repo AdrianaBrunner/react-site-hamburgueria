@@ -1,0 +1,1001 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: rgba(163, 166, 167, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.7);
+    border-radius: 10px;
+    border: 1px solid rgba(56, 53, 53, 0.18);
+    margin: 5rem 10rem;
+  }
+  
+  #h1 {
+    text-decoration: underline wavy orange;
+    -webkit--text-decoration: underline wavy orange;
+  }
+  .main h1,
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 10px rgb(19, 30, 80);
+    padding: 2rem;
+    font-size: 3rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .main #h1:hover {
+    transform: scale(1.1);
+    color: orange;
+  }
+  
+  #burger1 {
+    width: 30rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #burger1:hover {
+    transform: scale(1.1);
+  }
+  
+  #first-main,
+  #second-main {
+    display: flex;
+    flex-direction: row;
+  }
+  .main #body1,
+  .main #body2,
+  .main #body3,
+  .main #body4 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .burger-price,
+  .drink-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.625rem;
+    font-size: larger;
+  }
+  .burger-price:hover,
+  .drink-price:hover {
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(19, 30, 80);
+    background-color: orange;
+    cursor: pointer;
+  }
+  
+  .price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid none;
+    border-radius: 30px 0;
+    width: 5rem;
+    height: 5rem;
+    background: rgba(245, 134, 7, 1);
+    box-shadow: 2px 2px 10px rgb(13, 41, 92);
+    font-size: 1.7rem;
+  }
+  
+  .burger,
+  .drink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.375rem;
+    width: 30rem;
+    height: 6rem;
+  }
+  
+  .burger span,
+  .drink span {
+    padding: 0.188rem;
+  }
+  
+  .main #third-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70rem;
+    height: 30rem;
+    margin-bottom: 4rem;
+  }
+  
+  .main #third-main h1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  #burger2 {
+    width: 25rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #burger2:hover {
+    transform: scale(1.1);
+  }
+  
+  #third-main #coke {
+    width: 18rem;
+    height: auto;
+    margin-left: 3rem;
+    transition: all 0.3s ease-in-out;
+  }
+  #third-main #coke:hover {
+    transform: scale(1.1);
+  }
+  
+  #footer span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    color: white;
+    font-size: 1.5rem;
+  }
+  /* -------------------------------------------------------------------------------------------------------------- */
+  @media (max-width: 279px) {
+    header {
+      display: block;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      gap: 1rem;
+    }
+  
+    .meioHeader {
+      padding: 1.5rem;
+    }
+  
+    .meioHeader a{
+      border: 1px solid rgb(46, 44, 44);
+      border-radius: 10px;
+      width: 5rem;
+      color: white;
+      background-color: rgb(240, 174, 52);
+  
+    }
+  
+    .meioHeader a:visited{
+      border: 1px solid rgb(46, 44, 44);
+      border-radius: 10px;
+      width: 5rem;
+      color: white;
+      background-color: rgb(240, 174, 52);
+    }
+  
+    main .main {
+      margin: 1rem 1rem;
+    }
+  
+    .main h1 {
+      text-align: center;
+      padding: 1rem;
+      font-size: 2rem;
+    }
+  
+    #h1 {
+      text-decoration: none;
+    }
+    #burger1 {
+      width: 18rem;
+    }
+  
+    #first-main,
+    #second-main {
+      display: flex;
+      flex-direction: column;
+    }
+    .main #body1,
+    .main #body2,
+    .main #body3,
+    .main #body4 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .burger-price,
+    .drink-price {
+      padding: 2rem;
+      font-size: 1rem;
+      padding: 1.5rem;
+    }
+  
+    .price {
+      width: 3rem;
+      height: 2rem;
+      font-size: 1rem;
+    }
+  
+    .main .burger {
+      width: 10rem;
+      height: 9rem;
+    }
+  
+    .drink {
+      width: 10rem;
+    }
+  
+    .main #third-main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 20rem;
+      height: 45rem;
+    }
+  
+    .main #third-main h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #burger2 {
+      width: 20rem;
+    }
+  
+    #third-main #coke {
+      width: 10rem;
+    }
+  
+    #footer span {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 280px) and (max-width: 500px) {
+    header {
+      display: block;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      gap: 3rem;
+    }
+  
+    .meioHeader {
+      padding: 1.5rem;
+    }
+  
+    .meioHeader a{
+      border: 1px solid rgb(46, 44, 44);
+      border-radius: 10px;
+      width: 5rem;
+      color: white;
+      background-color: rgb(240, 174, 52);
+  
+    }
+  
+    .meioHeader a:visited{
+      border: 1px solid rgb(46, 44, 44);
+      border-radius: 10px;
+      width: 5rem;
+      color: white;
+      background-color: rgb(240, 174, 52);
+    }
+  
+    main .main {
+      margin: 1rem 0.2rem;
+    }
+  
+    #h1 {
+      text-decoration: none;
+      text-align: center;
+      padding: 1rem;
+      font-size: 2rem;
+    }
+  
+    #burger1 {
+      width: 20rem;
+    }
+  
+    #first-main,
+    #second-main {
+      display: flex;
+      flex-direction: column;
+    }
+    .main #body1,
+    .main #body2,
+    .main #body3,
+    .main #body4 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .burger-price {
+      padding: 2rem;
+      margin: 1rem 2rem;
+      font-size: 1rem;
+      margin-bottom: 1.3rem;
+    }
+  
+    .drink-price {
+      margin-bottom: 1.3rem;
+    }
+  
+    .price {
+      width: 3rem;
+      height: 3rem;
+      font-size: 1rem;
+    }
+  
+    .burger {
+      width: 10rem;
+      height: 9rem;
+    }
+  
+    .drink {
+      width: 10rem;
+      height: 8rem;
+    }
+    .burger span,
+    .drink span {
+      padding: 0.5rem;
+    }
+  
+    .main #third-main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 20rem;
+      height: 50rem;
+    }
+  
+    .main #third-main h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #burger2 {
+      width: 20rem;
+    }
+  
+    #third-main #coke {
+      width: 10rem;
+      margin-right: 3rem;
+    }
+  
+    #footer span {
+      text-align: center;
+      font-size: 0.7rem;
+    }
+  }
+  @media (min-width: 501px) and (max-width: 721px) {
+    header {
+      display: block;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      gap: 1rem;
+    }
+  
+    .meioHeader {
+      padding: 1.5rem;
+    }
+  
+    .meioHeader a{
+      border: 1px solid rgb(46, 44, 44);
+      border-radius: 10px;
+      width: 5rem;
+      color: white;
+      background-color: rgb(240, 174, 52);
+  
+    }
+  
+    .meioHeader a:visited{
+      border: 1px solid rgb(46, 44, 44);
+      border-radius: 10px;
+      width: 5rem;
+      color: white;
+      background-color: rgb(240, 174, 52);
+    }
+  
+    .main {
+      margin: 4rem 3rem;
+    }
+  
+    .main h1,
+    h2 {
+      padding: 1rem;
+      font-size: 2rem;
+    }
+  
+    #burger1 {
+      width: 20rem;
+    }
+  
+    #first-main,
+    #second-main {
+      display: flex;
+      flex-direction: column;
+    }
+    .main #body1,
+    .main #body2,
+    .main #body3,
+    .main #body4 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .burger-price,
+    .drink-price {
+      padding: 1.5rem;
+      font-size: 1rem;
+    }
+  
+    .price {
+      width: 4rem;
+      height: 4rem;
+      font-size: 1.3rem;
+    }
+  
+    .burger,
+    .drink {
+      width: 18rem;
+      padding: 1rem;
+      height: 6rem;
+    }
+  
+    .burger span,
+    .drink span {
+      padding: 0.188rem;
+    }
+  
+    .main #third-main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 20rem;
+      height: 50rem;
+      margin-bottom: 4rem;
+      margin-top: 3rem;
+    }
+  
+    .main #third-main h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #burger2 {
+      width: 20rem;
+    }
+  
+    #third-main #coke {
+      width: 12rem;
+      margin-right: 3rem;
+      margin-top: 1rem;
+    }
+    #footer span {
+      font-size: 0.8rem;
+    }
+  }
+  @media (min-width: 722px) and (max-width: 1000px) {
+    .main {
+      margin: 4rem 3rem;
+    }
+  
+    .main h1,
+    h2 {
+      padding: 1rem;
+      font-size: 2.5rem;
+    }
+  
+    #burger1 {
+      width: 30rem;
+    }
+  
+    #first-main,
+    #second-main {
+      display: flex;
+      flex-direction: row;
+    }
+    .main #body1,
+    .main #body2,
+    .main #body3,
+    .main #body4 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .burger-price,
+    .drink-price {
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+    .price {
+      width: 3rem;
+      height: 4rem;
+      font-size: 1rem;
+    }
+  
+    .burger,
+    .drink {
+      width: 12rem;
+      padding-top: 1rem;
+    }
+  
+    .burger span,
+    .drink span {
+      padding: 0.188rem;
+    }
+  
+    .main #third-main {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 20rem;
+      height: 35rem;
+    }
+  
+    .main #third-main h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #burger2 {
+      width: 25rem;
+    }
+  
+    #third-main #coke {
+      width: 15rem;
+    }
+  
+    #footer span {
+      font-size: 0.8rem;
+    }
+  }
+  @media (min-width: 1001px) and (max-width: 1324px) {
+    .main {
+      margin: 4rem 3rem;
+    }
+  
+    .main h1,
+    h2 {
+      padding: 1rem;
+      font-size: 2.5rem;
+    }
+  
+    #burger1 {
+      width: 35rem;
+    }
+  
+    #first-main,
+    #second-main {
+      display: flex;
+      flex-direction: row;
+    }
+    .main #body1,
+    .main #body2,
+    .main #body3,
+    .main #body4 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .burger-price,
+    .drink-price {
+      padding: 1rem;
+      font-size: 1.1rem;
+    }
+  
+    .price {
+      width: 4.5rem;
+      height: 4.5rem;
+      font-size: 1.5rem;
+    }
+  
+    .burger,
+    .drink {
+      width: 20rem;
+      padding: 1rem;
+    }
+  
+    .burger span,
+    .drink span {
+      padding: 0.188rem;
+    }
+  
+    .main #third-main {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 20rem;
+      height: 35rem;
+    }
+  
+    .main #third-main h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #burger2 {
+      width: 25rem;
+    }
+  
+    #third-main #coke {
+      width: 15rem;
+    }
+  
+    #footer span {
+      font-size: 0.8rem;
+    }
+  }
+  @media (min-width: 1325px) and (max-width: 1820px) {
+    .main {
+      margin: 4rem 10rem;
+    }
+  
+    .main h1,
+    h2 {
+      padding: 1rem;
+      font-size: 3rem;
+    }
+  
+    #burger1 {
+      width: 35rem;
+    }
+  
+    #first-main,
+    #second-main {
+      display: flex;
+      flex-direction: row;
+    }
+    .main #body1,
+    .main #body2,
+    .main #body3,
+    .main #body4 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .burger-price,
+    .drink-price {
+      padding: 2rem;
+      font-size: 1.2rem;
+    }
+  
+    .price {
+      width: 4rem;
+      height: 4rem;
+      font-size: 1.2rem;
+    }
+  
+    .burger,
+    .drink {
+      width: 22rem;
+      padding: 1rem;
+      height: 6rem;
+    }
+  
+    .burger span,
+    .drink span {
+      padding: 0.188rem;
+    }
+  
+    .main #third-main {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 20rem;
+      height: 35rem;
+    }
+  
+    .main #third-main h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #burger2 {
+      width: 25rem;
+    }
+  
+    #third-main #coke {
+      width: 15rem;
+    }
+  
+    #footer span {
+      font-size: 1rem;
+    }
+  }
+  @media (min-width: 1821px) and (max-width: 2048px) {
+    .main {
+      margin: 4rem 10rem;
+    }
+  
+    .main h1,
+    h2 {
+      font-size: 3.5rem;
+    }
+  
+    #burger1 {
+      width: 45rem;
+    }
+  
+    #first-main,
+    #second-main {
+      display: flex;
+      flex-direction: row;
+    }
+    .main #body1,
+    .main #body2,
+    .main #body3,
+    .main #body4 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .burger-price,
+    .drink-price {
+      padding: 2rem;
+      font-size: 1.5rem;
+    }
+  
+    .price {
+      width: 6rem;
+      height: 5.5rem;
+      font-size: 2rem;
+    }
+  
+    .burger,
+    .drink {
+      width: 35rem;
+      padding: 1rem;
+      height: 6rem;
+    }
+  
+    .burger span,
+    .drink span {
+      padding: 0.2rem;
+    }
+  
+    .main #third-main {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 20rem;
+      height: 35rem;
+    }
+  
+    .main #third-main h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #burger2 {
+      width: 45rem;
+    }
+  
+    #third-main #coke {
+      width: 20rem;
+    }
+  
+    #footer span {
+      font-size: 1rem;
+    }
+  }
+  @media (min-width: 2049px) and (max-width: 2800px) {
+    .meioHeader {
+      font-size: 1.7rem;
+      padding: 1.8rem;
+    }
+  
+    .superiorDireita p {
+      font-size: 1.7rem;
+    }
+  
+    .superiorDireita .material-symbols-outlined {
+      font-size: 2.5rem;
+    }
+  
+    .superiorEsquerda h1 {
+      font-size: 1.7rem;
+    }
+  
+    .superiorEsquerda img {
+      width: 3rem;
+    }
+  
+    .main {
+      margin: 4rem 13rem;
+    }
+  
+    .main h1,
+    h2 {
+      font-size: 3.5rem;
+    }
+  
+    #burger1 {
+      width: 45rem;
+    }
+  
+    #first-main,
+    #second-main {
+      display: flex;
+      flex-direction: row;
+    }
+    .main #body1,
+    .main #body2,
+    .main #body3,
+    .main #body4 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .burger-price,
+    .drink-price {
+      padding: 2rem;
+      font-size: 1.8rem;
+    }
+  
+    .price {
+      width: 6rem;
+      height: 5.5rem;
+      font-size: 2rem;
+    }
+  
+    .burger,
+    .drink {
+      width: 40rem;
+      padding: 1rem;
+      height: 6rem;
+    }
+  
+    .burger span,
+    .drink span {
+      padding: 0.2rem;
+    }
+  
+    .main #third-main {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 20rem;
+      height: 45rem;
+    }
+  
+    .main #third-main h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #burger2 {
+      width: 45rem;
+    }
+  
+    #third-main #coke {
+      width: 20rem;
+    }
+  
+    #footer span {
+      font-size: 1.3rem;
+    }
+  }
+  @media (min-width: 2801px) {
+    .meioHeader {
+      font-size: 3rem;
+      padding: 1.8rem;
+    }
+  
+    .superiorDireita p {
+      font-size: 3rem;
+    }
+  
+    .superiorDireita .material-symbols-outlined {
+      font-size: 3.5rem;
+    }
+  
+    .superiorEsquerda h1 {
+      font-size: 3rem;
+    }
+  
+    .superiorEsquerda img {
+      width: 4rem;
+    }
+  
+    .main {
+      margin: 4rem 40rem;
+    }
+  
+    .main h1,
+    h2 {
+      font-size: 6rem;
+    }
+  
+    #burger1 {
+      width: 70rem;
+    }
+  
+    #first-main,
+    #second-main {
+      display: flex;
+      flex-direction: row;
+    }
+    .main #body1,
+    .main #body2,
+    .main #body3,
+    .main #body4 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .burger-price,
+    .drink-price {
+      padding: 5rem;
+      font-size: 3rem;
+    }
+  
+    .price {
+      width: 10rem;
+      height: 10rem;
+      font-size: 4rem;
+    }
+  
+    .burger,
+    .drink {
+      width: 65rem;
+      padding: 2rem;
+      height: 6rem;
+    }
+  
+    .burger span,
+    .drink span {
+      padding: 1rem;
+    }
+  
+    .main #third-main {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 50rem;
+      height: 70rem;
+    }
+  
+    .main #third-main h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #burger2 {
+      width: 70rem;
+    }
+  
+    #third-main #coke {
+      width: 40rem;
+    }
+  
+    #footer span {
+      font-size: 2rem;
+    }
+  }
+  

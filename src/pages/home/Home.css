@@ -1,0 +1,1700 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+  }
+  
+  .classePrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .textoPrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 4rem;
+    width: 40rem;
+  }
+  
+  .origin {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  
+  .savory {
+    font-size: 6rem;
+    margin-bottom: 17px;
+  }
+  
+  .frase {
+    font-size: 15px;
+  }
+  
+  .imagensHamb {
+    margin-right: 3rem;
+  }
+  
+  .hambImagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+    width: 30rem;
+    border-radius: 160px;
+  }
+  
+  .menuA {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(192, 99, 45);
+    color: white;
+    height: 2rem;
+    width: 9rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    margin-top: 50px;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .menuA:hover {
+    color: rgb(192, 99, 45);
+    background-color: white;
+    text-decoration: none;
+  }
+  
+  /* ================parte de baixo=============== */
+  
+  .cardapio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cl1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    width: 40rem;
+  }
+  
+  .cl2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    width: 40rem;
+  }
+  
+  .cl1:hover,
+  .cl2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .paragrafo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+    margin-left: 3rem;
+  }
+  
+  .paragrafo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+  }
+  
+  .texto3 {
+    font-size: 1rem;
+  }
+  
+  .img1 {
+    width: 12rem;
+  }
+  
+  .img2 {
+    width: 18rem;
+  }
+  
+  .botoes {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: start;
+  }
+  
+  .flames {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+    vertical-align: -0.2em;
+  }
+  
+  .flames:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .family {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .family:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .more {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .more:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .price-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 10rem;
+    background-color: rgb(21, 34, 92);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 10px;
+    width: 4rem;
+  }
+  
+  .estrelinha {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+  
+  .rating {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 1rem;
+    width: 10rem;
+  }
+  
+  .nota {
+    margin-left: 1rem;
+  }
+  
+  footer #footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    color: white;
+    font-size: 1rem;
+    padding-top: 3rem;
+  }
+  
+  /* ==========responsividade========== */
+  
+  @media (max-width: 279px) {
+    body .principal {
+      max-width: 100%;
+      margin: 0;
+    }
+  
+    header {
+      display: block;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      gap: 1rem;
+    }
+  
+    .meioHeader {
+      padding: 1.5rem;
+    }
+  
+    .meioHeader a{
+      border: 1px solid rgb(46, 44, 44);
+      border-radius: 10px;
+      width: 5rem;
+      color: white;
+      background-color: rgb(240, 174, 52);
+  
+    }
+  
+    .meioHeader a:visited{
+      border: 1px solid rgb(46, 44, 44);
+      border-radius: 10px;
+      width: 5rem;
+      color: white;
+      background-color: rgb(240, 174, 52);
+  
+    }
+  
+    .classePrincipal {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .imagensHamb img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 18rem;
+      border-radius: 1rem;
+    }
+  
+    .hambImagem {
+      margin-left: 3rem;    
+    }
+  
+    .textoPrincipal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 2rem;
+      padding-top: 6rem;
+      width: 15rem;
+    }
+  
+    .textoPrincipal .savory {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.7rem;
+    }
+  
+    .textoPrincipal .frase {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      width: 15rem;
+    }
+  
+    .textoPrincipal .origin {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+    }
+  
+    .menuA {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .botoes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-size: 1rem;
+      gap: 2rem;
+    }
+  
+    .cardapio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+  
+    .cl1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 3rem;
+      max-width: 100%;
+      width: 20rem;
+      margin-right: 3rem;
+    }
+  
+    .cl2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      max-width: 100%;
+      width: 15rem;
+    }
+  
+    .cl1 img {
+      margin-left: 2rem;
+    }
+  
+    .cl2 img {
+      margin-bottom: 2rem;
+    }
+    .texto3,
+    .texto4 {
+      font-size: 1rem;
+      text-align: center;
+    }
+    .texto2,
+    .texto1 {
+      font-size: 1rem;
+      text-align: center;
+    }
+  
+    footer span {
+      text-align: center;
+      font-size: 0.8rem;
+    }
+  
+    .estrelinha {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      width: 15rem;
+    }
+  
+    .price-tag {
+      width: 2.5rem;
+      height: 1.5rem;
+      font-size: 0.7rem;
+    }
+    .rating .material-symbols-outlined {
+      font-size: 1rem;
+    }
+  
+    .rating .nota {
+      font-size: 1rem;
+    }
+  }
+
+  @media (min-width: 280px) and (max-width: 500px) {
+    body .principal {
+      max-width: 100%;
+      margin: 0;
+    }
+  
+    .meioHeader {
+      padding: 1.5rem;
+    }
+  
+    .meioHeader a{
+      border: 1px solid rgb(46, 44, 44);
+      border-radius: 10px;
+      width: 5rem;
+      color: white;
+      background-color: rgb(240, 174, 52);
+  
+    }
+  
+    .meioHeader a:visited{
+      border: 1px solid rgb(46, 44, 44);
+      border-radius: 10px;
+      width: 5rem;
+      color: white;
+      background-color: rgb(240, 174, 52);
+    }
+  
+    header {
+      display: block;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      gap: 3rem;
+    }
+  
+    .classePrincipal {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .imagensHamb img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 18rem;
+      border-radius: 1rem;
+    }
+  
+    .hambImagem {
+      margin-left: 3rem;
+    }
+  
+    .textoPrincipal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 2rem;
+      padding-top: 6rem;
+      width: 15rem;
+    }
+  
+    .textoPrincipal .savory {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.7rem;
+    }
+  
+    .textoPrincipal .frase {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      width: 15rem;
+    }
+  
+    .textoPrincipal .origin {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+    }
+  
+    .menuA {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .botoes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-size: 1rem;
+      gap: 2rem;
+    }
+  
+    .cardapio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+  
+    .cl1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 3rem;
+      max-width: 100%;
+      width: 20rem;
+      margin-right: 3rem;
+    }
+  
+    .cl2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      max-width: 100%;
+      width: 15rem;
+    }
+  
+    .cl1 img {
+      margin-left: 2rem;
+    }
+  
+    .cl2 img {
+      margin-bottom: 2rem;
+    }
+    .texto3,
+    .texto4 {
+      font-size: 1rem;
+      text-align: center;
+    }
+    .texto2,
+    .texto1 {
+      font-size: 1rem;
+      text-align: center;
+    }
+  
+    footer span {
+      text-align: center;
+      font-size: 0.8rem;
+    }
+  
+    .estrelinha {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      width: 15rem;
+    }
+  
+    .price-tag {
+      width: 2.5rem;
+      height: 1.5rem;
+      font-size: 0.7rem;
+    }
+    .rating .material-symbols-outlined {
+      font-size: 1rem;
+    }
+  
+    .rating .nota {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 501px) and (max-width: 721px) {
+    body .principal {
+      max-width: 100%;
+      margin: 0;
+    }
+  
+    .meioHeader {
+      padding: 1.5rem;
+    }
+  
+    .meioHeader a{
+      border: 1px solid rgb(46, 44, 44);
+      border-radius: 10px;
+      width: 5rem;
+      color: white;
+      background-color: rgb(240, 174, 52);
+  
+    }
+  
+    .meioHeader a:visited{
+      border: 1px solid rgb(46, 44, 44);
+      border-radius: 10px;
+      width: 5rem;
+      color: white;
+      background-color: rgb(240, 174, 52);
+    }
+  
+    header {
+      display: block;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      gap: 1rem;
+    }
+  
+    .classePrincipal {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .imagensHamb img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 18rem;
+      border-radius: 1rem;
+    }
+  
+    .hambImagem {
+      margin-left: 3rem;
+    }
+  
+    .textoPrincipal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 3rem;
+      padding: 6rem;
+      width: 35rem;
+    }
+  
+    .textoPrincipal .savory {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+    }
+  
+    .textoPrincipal .frase {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+    }
+  
+    .textoPrincipal .origin {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+    }
+  
+    .menuA {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .botoes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-size: 1rem;
+      gap: 2rem;
+    }
+  
+    .cardapio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+  
+    .cl1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 3rem;
+      max-width: 100%;
+      width: 25rem;
+    }
+  
+    .cl2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      max-width: 100%;
+      width: 20rem;
+    }
+  
+    .texto3,
+    .texto4 {
+      font-size: 1rem;
+    }
+    .texto2,
+    .texto1 {
+      font-size: 1.5rem;
+    }
+  
+    footer {
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 722px) and (max-width: 900px) {
+    body .principal {
+      max-width: 100%;
+      margin: 0;
+    }
+  
+    .classePrincipal {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .imagensHamb img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 35rem;
+      border-radius: 1rem;
+    }
+  
+    .hambImagem {
+      margin-left: 3rem;
+    }
+  
+    .textoPrincipal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 3rem;
+      padding: 6rem;
+      width: 35rem;
+    }
+  
+    .textoPrincipal .savory {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 6rem;
+    }
+  
+    .textoPrincipal .frase {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+    }
+  
+    .textoPrincipal .origin {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+    }
+  
+    .menuA {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10rem;
+      height: 3rem;
+      font-size: 1rem;
+    }
+  
+    .botoes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 1rem;
+      gap: 5rem;
+    }
+  
+    .cardapio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+  
+    .cl1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 3rem;
+      max-width: 100%;
+      width: 40rem;
+    }
+  
+    .cl2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      max-width: 100%;
+      width: 35rem;
+    }
+  
+    .texto3,
+    .texto4 {
+      font-size: 1rem;
+      text-align: center;
+    }
+    .texto2,
+    .texto1 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .texto2 {
+      padding-top: 2rem;
+    }
+  
+    footer {
+      text-align: center;
+    }
+  
+    .estrelinha {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin-left: 10rem;
+    }
+  }
+  
+  @media (min-width: 901px) and (max-width: 1200px) {
+    body .principal {
+      max-width: 100%;
+      margin: 0;
+    }
+  
+    .classePrincipal {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+  
+    .imagensHamb img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 25rem;
+      border-radius: 1rem;
+    }
+  
+    .hambImagem {
+      margin-left: 3rem;
+    }
+  
+    .textoPrincipal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 3rem;
+      padding: 6rem;
+      width: 30rem;
+    }
+  
+    .textoPrincipal .savory {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 4rem;
+    }
+  
+    .textoPrincipal .frase {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+    }
+  
+    .textoPrincipal .origin {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+    }
+  
+    .menuA {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10rem;
+      height: 3rem;
+      font-size: 1rem;
+    }
+  
+    .botoes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 1rem;
+      gap: 6rem;
+    }
+  
+    .cardapio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: row;
+    }
+  
+    .cl1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 3rem;
+      margin-top: 2.5rem;
+      max-width: 100%;
+      width: 40rem;
+      padding-right: 2rem;
+    }
+  
+    .cl2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      max-width: 100%;
+      width: 35rem;
+    }
+  
+    .cl1 img {
+      width: 10rem;
+    }
+  
+    .cl2 img {
+      width: 15rem;
+    }
+  
+    .texto3,
+    .texto4 {
+      font-size: 1rem;
+      text-align: center;
+    }
+    .texto2,
+    .texto1 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .texto2 {
+      padding-top: 2rem;
+    }
+  
+    .texto1 {
+      margin-top: 0.8rem;
+    }
+  
+    footer {
+      text-align: center;
+    }
+  
+    .estrelinha {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin-left: 5rem;
+    }
+  }
+  
+  @media (min-width: 1201px) and (max-width: 1700px) {
+    body .principal {
+      max-width: 100%;
+      margin: 0;
+    }
+  
+    .classePrincipal {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+  
+    .imagensHamb img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30rem;
+      border-radius: 1rem;
+    }
+  
+    .hambImagem {
+      margin-left: 3rem;
+    }
+  
+    .textoPrincipal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 3rem;
+      padding: 6rem;
+      width: 30rem;
+    }
+  
+    .textoPrincipal .savory {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 5.5rem;
+    }
+  
+    .textoPrincipal .frase {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30rem;
+      font-size: 1.3rem;
+    }
+  
+    .textoPrincipal .origin {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30rem;
+      font-size: 1.7rem;
+    }
+  
+    .menuA {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10rem;
+      height: 3rem;
+      font-size: 1rem;
+    }
+  
+    .botoes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 1.5rem;
+      gap: 6rem;
+    }
+  
+    .cardapio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: row;
+    }
+  
+    .cl1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 3rem;
+      margin-top: 2.5rem;
+      max-width: 100%;
+      width: 40rem;
+      padding-right: 2rem;
+    }
+  
+    .cl2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      max-width: 100%;
+      width: 35rem;
+    }
+  
+    .cl1 img {
+      width: 12.5rem;
+    }
+  
+    .cl2 img {
+      width: 20rem;
+    }
+  
+    .texto3,
+    .texto4 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .texto2,
+    .texto1 {
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .texto2 {
+      padding-top: 2rem;
+    }
+  
+    .texto1 {
+      margin-top: 0.8rem;
+    }
+  
+    footer span {
+      text-align: center;
+      font-size: 1.3rem;
+    }
+  
+    .estrelinha {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin-left: 9rem;
+    }
+  }
+  
+  @media (min-width: 1701px) and (max-width: 2000px) {
+    body .principal {
+      max-width: 100%;
+      margin: 0;
+    }
+  
+    .meioHeader {
+      font-size: 1.5rem;
+      padding: 1.8rem;
+    }
+  
+    .superiorDireita p {
+      font-size: 1.5rem;
+    }
+  
+    .superiorDireita .material-symbols-outlined {
+      font-size: 2.3rem;
+    }
+  
+    .superiorEsquerda h1 {
+      font-size: 1.5rem;
+    }
+  
+    .superiorEsquerda img {
+      width: 3rem;
+    }
+  
+    main {
+      width: 100%;
+    }
+  
+    .classePrincipal {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      margin-left: 5rem;
+    }
+  
+    .imagensHamb img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40rem;
+      border-radius: 1rem;
+    }
+  
+    .hambImagem {
+      margin-left: 3rem;
+    }
+  
+    .textoPrincipal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 3rem;
+      padding: 6rem;
+      width: 55rem;
+    }
+  
+    .textoPrincipal .savory {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 8rem;
+    }
+  
+    .textoPrincipal .frase {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 45rem;
+      font-size: 1.6rem;
+    }
+  
+    .textoPrincipal .origin {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30rem;
+      font-size: 2rem;
+    }
+  
+    .menuA {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 15rem;
+      height: 3rem;
+      font-size: 1.6rem;
+    }
+  
+    .botoes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 1.7rem;
+      gap: 20rem;
+    }
+  
+    .cardapio {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      flex-direction: row;
+    }
+  
+    .cl1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 3rem;
+      margin-top: 2.5rem;
+      max-width: 100%;
+      width: 40rem;
+      padding-right: 5rem;
+    }
+  
+    .cl2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      max-width: 100%;
+      width: 35rem;
+    }
+  
+    .cl1 img {
+      width: 16rem;
+    }
+  
+    .cl2 img {
+      width: 25rem;
+    }
+  
+    .texto3,
+    .texto4 {
+      font-size: 1.7rem;
+      text-align: center;
+    }
+    .texto2,
+    .texto1 {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+  
+    .texto2 {
+      padding-top: 1rem;
+    }
+  
+    .texto1 {
+      margin-top: 0.8rem;
+    }
+  
+    footer span {
+      text-align: center;
+      font-size: 1.8rem;
+    }
+  
+    .estrelinha {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      margin-left: 1rem;
+    }
+  
+    .price-tag {
+      width: 6rem;
+      height: 3rem;
+      font-size: 1.6rem;
+    }
+    .rating .material-symbols-outlined {
+      font-size: 1.7rem;
+    }
+  }
+  
+  @media (min-width: 2001px) and (max-width: 2600px) {
+    body .principal {
+      max-width: 100%;
+      margin: 0;
+    }
+  
+    .meioHeader {
+      font-size: 1.7rem;
+      padding: 1.8rem;
+    }
+  
+    .superiorDireita p {
+      font-size: 1.7rem;
+    }
+  
+    .superiorDireita .material-symbols-outlined {
+      font-size: 2.5rem;
+    }
+  
+    .superiorEsquerda h1 {
+      font-size: 1.7rem;
+    }
+  
+    .superiorEsquerda img {
+      width: 3rem;
+    }
+  
+    main {
+      width: 100%;
+    }
+  
+    .classePrincipal {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      margin-left: 5rem;
+    }
+  
+    .imagensHamb img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60rem;
+      border-radius: 1rem;
+    }
+  
+    .hambImagem {
+      margin-left: 3rem;
+    }
+  
+    .textoPrincipal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 3rem;
+      padding: 6rem;
+      width: 55rem;
+    }
+  
+    .textoPrincipal .savory {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10rem;
+    }
+  
+    .textoPrincipal .frase {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 58rem;
+      font-size: 2rem;
+    }
+  
+    .textoPrincipal .origin {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40rem;
+      font-size: 2.7rem;
+    }
+  
+    .menuA {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 17rem;
+      height: 3.5rem;
+      font-size: 1.8rem;
+    }
+  
+    .botoes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 2.2rem;
+      gap: 20rem;
+    }
+  
+    .cardapio {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      flex-direction: row;
+    }
+  
+    .cl1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 3rem;
+      margin-top: 2.5rem;
+      max-width: 100%;
+      width: 40rem;
+      padding-right: 5rem;
+    }
+  
+    .cl2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      max-width: 100%;
+      width: 35rem;
+    }
+  
+    .cl1 img {
+      width: 22.5rem;
+    }
+  
+    .cl2 img {
+      width: 35rem;
+    }
+  
+    .texto3,
+    .texto4 {
+      font-size: 1.9rem;
+      text-align: center;
+    }
+    .texto2,
+    .texto1 {
+      font-size: 2.6rem;
+      width: 45rem;
+      text-align: center;
+    }
+  
+    .texto2 {
+      margin-top: 4.1rem;
+    }
+  
+    .texto1 {
+      margin-top: 0.8rem;
+    }
+  
+    footer span {
+      text-align: center;
+      font-size: 2rem;
+    }
+  
+    .estrelinha {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      margin-left: 1rem;
+    }
+  
+    .price-tag {
+      width: 6rem;
+      height: 3rem;
+      font-size: 1.6rem;
+    }
+    .rating .material-symbols-outlined {
+      font-size: 1.7rem;
+    }
+  }
+  
+  @media (min-width: 2601px) {
+    body .principal {
+      max-width: 100%;
+      margin: 0;
+    }
+  
+    .meioHeader a {
+      font-size: 2rem;
+      padding: 1.8rem;
+    }
+  
+    .superiorDireita p {
+      font-size: 2rem;
+    }
+  
+    .superiorDireita .material-symbols-outlined {
+      font-size: 3rem;
+    }
+  
+    .superiorEsquerda h1 {
+      font-size: 2rem;
+    }
+  
+    .superiorEsquerda img {
+      width: 4rem;
+    }
+  
+    main {
+      width: 100%;
+    }
+  
+    .classePrincipal {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      margin-left: 5rem;
+    }
+  
+    .imagensHamb img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80rem;
+      border-radius: 1rem;
+    }
+  
+    .hambImagem {
+      margin-left: 3rem;
+    }
+  
+    .textoPrincipal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 3rem;
+      padding: 6rem;
+      width: 55rem;
+      margin-right: 7rem;
+    }
+  
+    .textoPrincipal .savory {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11.5rem;
+    }
+  
+    .textoPrincipal .frase {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 62rem;
+      font-size: 2.5rem;
+    }
+  
+    .textoPrincipal .origin {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40rem;
+      font-size: 3rem;
+    }
+  
+    .menuA {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 19rem;
+      height: 4rem;
+      font-size: 2rem;
+    }
+  
+    .botoes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 3rem;
+      gap: 20rem;
+    }
+  
+    .cardapio {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      flex-direction: row;
+    }
+  
+    .cl1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 3rem;
+      margin-top: 2.5rem;
+      max-width: 100%;
+      width: 40rem;
+      padding-right: 5rem;
+    }
+  
+    .cl2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      max-width: 100%;
+      width: 35rem;
+    }
+  
+    .cl1 img {
+      width: 29.1rem;
+    }
+  
+    .cl2 img {
+      width: 45rem;
+    }
+  
+    .texto3,
+    .texto4 {
+      font-size: 2.7rem;
+      text-align: center;
+    }
+    .texto2,
+    .texto1 {
+      font-size: 3.2rem;
+      width: 65rem;
+      text-align: center;
+    }
+  
+    .texto2 {
+      margin-top: 4.1rem;
+    }
+  
+    .texto1 {
+      margin-top: 0.8rem;
+    }
+  
+    footer span {
+      text-align: center;
+      font-size: 2.9rem;
+    }
+  
+    .estrelinha {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      margin-left: 1rem;
+    }
+  
+    .price-tag {
+      width: 8rem;
+      height: 5rem;
+      font-size: 2rem;
+    }
+    .rating .material-symbols-outlined {
+      font-size: 3.3rem;
+    }
+  
+    .rating .nota {
+      font-size: 2.3rem;
+    }
+  }
+  
